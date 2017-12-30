@@ -1,0 +1,48 @@
+/*
+Saveree Joshipura 
+A13349228
+cs8bwaph
+March 8th, 2017
+
+README.md
+
+*/ 
+
+Program Description:
+
+ReverseRecurse.java:
+ReverseRecurse is unrelated to the GUI project of the PSA, but it is 
+practice for reversing an array using recursion (which is calling a method, or part
+of the code), again and again until it does not apply to the code anymore. There are 3 
+parts to this program - initArray, the first reverse, and the second reverse. initArray
+essentially initializes the array that the user inputs. The first reverse changes the 
+original array, while the second reverse makes a new array, and changes the new array, so it 
+preserves the original one. 
+
+Gui2048.java:
+The GUI2048 file is the most important part of the PSA. It puts together the whole game of 2048, 
+and makes it look exactly like the one on the website. The whole point of the GUI Interface is so 
+we can design the game to look however we want. Most of the PSA is dedicated to bringing the game
+to life, and designing it as we wish. There are several parts to this complicated code, but the main 
+part is the start(), and KeyHandler. 
+
+
+Unix/Linux Questions: 
+1. mkdir fileName 
+
+2. ls b* finds all the files that start with "b". Similarly, we could find all the files starting 
+with a certain letter by typing ls letter*. *.txt finds all the files that are txt files. 
+ 
+3. :tab all 
+
+Java Questions:
+4. Static means a method can be accessed without instantiating it, 
+and that it can be written to and read from without creating
+a separate object.
+
+5. This student, instead of hardcoding the colors and writing
+a separate method for each color, can change the colors in the methods 
+depending on user input. She can use the Color class in the Java FX library too. She doesn't 
+need to write a separate method for every color. She can also use inheritance since all of 
+the shapes have quite relating characteristics. You can use an abstract super class for this. 
+
